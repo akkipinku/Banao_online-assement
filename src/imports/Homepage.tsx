@@ -163,8 +163,8 @@ function Frame7() {
 
 function Frame() {
   return (
-    <div className="absolute h-[37.76px] left-[194px] top-[3282px] w-[101.07px]" data-name="Frame">
-      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 101.07 37.76">
+    <div className="absolute h-[37.76px] left-[194px] top-[3282px] w-[101.07px] flex items-center justify-center" data-name="Frame" style={{ left: '165px', top: '3255px', width: '160px', height: '92px' }}>
+      <svg className="block" width="101" height="38" fill="none" preserveAspectRatio="xMidYMid meet" viewBox="0 0 101.07 37.76">
         <g clipPath="url(#clip0_1_1068)" id="Frame">
           <path d={svgPaths.p25e3da00} fill="var(--fill-0, #3B3B42)" id="Vector" />
           <path d={svgPaths.pa9f83f0} fill="var(--fill-0, #3B3B42)" id="Vector_2" />
@@ -184,8 +184,8 @@ function Frame() {
 
 function Group8() {
   return (
-    <div className="absolute inset-[66.53%_66.36%_32.96%_27.01%]">
-      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 95.42 25.15">
+    <div className="absolute flex items-center justify-center" style={{ left: '355px', top: '3255px', width: '160px', height: '92px' }}>
+      <svg className="block" width="95" height="25" fill="none" preserveAspectRatio="xMidYMid meet" viewBox="0 0 95.42 25.15">
         <g id="Group 96">
           <path d={svgPaths.p177eb100} fill="var(--fill-0, #3B3B42)" id="Vector" />
           <path d={svgPaths.p17e4bb80} fill="var(--fill-0, #3B3B42)" id="Vector_2" />
@@ -200,8 +200,8 @@ function Group8() {
 
 function Group9() {
   return (
-    <div className="absolute inset-[66.57%_52.95%_33%_39.72%]">
-      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 105.46 21.02">
+    <div className="absolute flex items-center justify-center" style={{ left: '545px', top: '3255px', width: '160px', height: '92px' }}>
+      <svg className="block" width="105" height="21" fill="none" preserveAspectRatio="xMidYMid meet" viewBox="0 0 105.46 21.02">
         <g id="Group 97">
           <path d={svgPaths.p9ca3b80} fill="var(--fill-0, #3B3B42)" id="Vector" />
           <path d={svgPaths.p2ef99470} fill="var(--fill-0, #3B3B42)" id="Vector_2" />
@@ -218,8 +218,8 @@ function Group9() {
 
 function Group10() {
   return (
-    <div className="absolute inset-[66.61%_40.68%_33%_53.4%]">
-      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 85.18 19.22">
+    <div className="absolute flex items-center justify-center" style={{ left: '735px', top: '3255px', width: '160px', height: '92px' }}>
+      <svg className="block" width="85" height="19" fill="none" preserveAspectRatio="xMidYMid meet" viewBox="0 0 85.18 19.22">
         <g id="Group 98">
           <path d={svgPaths.p22a6b700} fill="var(--fill-0, #3B3B42)" id="Vector" />
           <path d={svgPaths.p16f5a1f0} fill="var(--fill-0, #3B3B42)" id="Vector_2" />
@@ -233,8 +233,8 @@ function Group10() {
 
 function Group11() {
   return (
-    <div className="absolute inset-[66.55%_27.79%_32.93%_67.36%]">
-      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 69.8713 25.4573">
+    <div className="absolute flex items-center justify-center" style={{ left: '925px', top: '3255px', width: '160px', height: '92px' }}>
+      <svg className="block" width="70" height="25" fill="none" preserveAspectRatio="xMidYMid meet" viewBox="0 0 69.8713 25.4573">
         <g id="Group 99">
           <path d={svgPaths.p20535200} fill="var(--fill-0, #3B3B42)" id="Vector" />
           <path d={svgPaths.p33b85d00} fill="var(--fill-0, #3B3B42)" id="Vector_2" />
@@ -249,8 +249,8 @@ function Group11() {
 
 function Group12() {
   return (
-    <div className="absolute inset-[66.55%_14.65%_32.97%_80.49%]">
-      <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 69.9998 23.9306">
+    <div className="absolute flex items-center justify-center" style={{ left: '1115px', top: '3255px', width: '160px', height: '92px' }}>
+      <svg className="block" width="70" height="24" fill="none" preserveAspectRatio="xMidYMid meet" viewBox="0 0 69.9998 23.9306">
         <g id="Group 100">
           <path d={svgPaths.p241c9320} fill="var(--fill-0, #3B3B42)" id="Vector" />
           <path d={svgPaths.p2e278900} fill="var(--fill-0, #3B3B42)" id="Vector_2" />
