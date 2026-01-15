@@ -1,0 +1,81 @@
+import React, { useState } from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import { useAuth } from '../hooks/useAuth';
+import { Button } from '../components/ui-dashboard/Button';
+import { Input } from '../components/ui-dashboard/Input';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui-dashboard/Card';
+
+export default function Signup() {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const { login } = useAuth();
+    const navigate = useNavigate();
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        // Simulate API delay
+        setTimeout(() => {
+            login(email);
+            navigate("/dashboard");
+        }, 500);
+    };
+
+    return (
+        <div className="min-h-screen bg-black flex items-center justify-center p-4">
+            <Card className="w-full max-w-md border-zinc-800 bg-zinc-950">
+                <CardHeader className="text-center space-y-2">
+                    <CardTitle className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+                        Create Account
+                    </CardTitle>
+                    <p className="text-sm text-zinc-400">Get started with Nexus Dashboard today</p>
+                </CardHeader>
+                <CardContent>
+                    <form onSubmit={handleSubmit} className="space-y-4">
+                        <div className="space-y-2">
+                            <label htmlFor="name" className="text-sm font-medium text-zinc-300">Full Name</label>
+                            <Input
+                                id="name"
+                                placeholder="John Doe"
+                                required
+                                className="bg-zinc-900 border-zinc-800"
+                            />
+                        </div>
+                        <div className="space-y-2">
+                            <label htmlFor="email" className="text-sm font-medium text-zinc-300">Email</label>
+                            <Input
+                                id="email"
+                                type="email"
+                                placeholder="name@example.com"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                required
+                                className="bg-zinc-900 border-zinc-800"
+                            />
+                        </div>
+                        <div className="space-y-2">
+                            <label htmlFor="password" className="text-sm font-medium text-zinc-300">Password</label>
+                            <Input
+                                id="password"
+                                type="password"
+                                placeholder="••••••••"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                                required
+                                className="bg-zinc-900 border-zinc-800"
+                            />
+                        </div>
+                        <Button type="submit" className="w-full bg-purple-600 hover:bg-purple-700">
+                            Create Account
+                        </Button>
+                    </form>
+                    <div className="mt-4 text-center text-sm text-zinc-400">
+                        Already have an account?{' '}
+                        <Link to="/login" className="text-purple-500 hover:text-purple-400 font-medium">
+                            Log in
+                        </Link>
+                    </div>
+                </CardContent>
+            </Card>
+        </div>
+    );
+}
