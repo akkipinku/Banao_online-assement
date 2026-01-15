@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nexus Dashboard
 
 A modern, responsive dashboard implementation featuring React Router, localized Authentication, and Data Visualization.
@@ -61,3 +62,7 @@ A modern, responsive dashboard implementation featuring React Router, localized 
 ## 🎥 Demo
 
 *(Placeholder: Link to 10-minute screen recording)*
+=======
+# Banao_online-assement
+submission for banao technologies . I created a clone of the figma design provided by them and add some features like fake authentication etc . 
+>>>>>>> f618a9a354b1cc6ae0a077be3665360732f94fba
