@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import svgPaths from "./svg-zcydwdybzq";
 import imgEllipse4 from "figma:asset/21e40f9e60e8ac9df89c0f4a74ba88b7100c4142.png";
 import imgEllipse5 from "figma:asset/6894ac59800dc50e6eb8481ef2f3c86ce3254717.png";
@@ -107,25 +108,25 @@ function Group34() {
 
 function Frame2() {
   return (
-    <div className="absolute content-stretch flex items-start left-[621px] px-[28px] py-[12px] rounded-[5px] top-[438px]" style={{ backgroundImage: "linear-gradient(101.143deg, rgb(255, 152, 152) 0.47654%, rgb(128, 84, 255) 100%)" }}>
+    <Link to="/template-preview" className="absolute content-stretch flex items-start left-[621px] px-[28px] py-[12px] rounded-[5px] top-[438px]" style={{ backgroundImage: "linear-gradient(101.143deg, rgb(255, 152, 152) 0.47654%, rgb(128, 84, 255) 100%)" }}>
       <p className="font-['Poppins:Regular',sans-serif] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-pre">Download Template</p>
-    </div>
+    </Link>
   );
 }
 
 function Frame8() {
   return (
-    <div className="absolute content-stretch flex items-start left-[1077px] px-[28px] py-[12px] rounded-[5px] top-[27px]" style={{ backgroundImage: "linear-gradient(101.143deg, rgb(255, 152, 152) 0.47654%, rgb(128, 84, 255) 100%)" }}>
+    <Link to="/template-preview" className="absolute content-stretch flex items-start left-[1077px] px-[28px] py-[12px] rounded-[5px] top-[27px]" style={{ backgroundImage: "linear-gradient(101.143deg, rgb(255, 152, 152) 0.47654%, rgb(128, 84, 255) 100%)" }}>
       <p className="font-['Poppins:Regular',sans-serif] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-pre">Download Template</p>
-    </div>
+    </Link>
   );
 }
 
 function Frame3() {
   return (
-    <div className="absolute bg-black content-stretch flex items-start left-[262px] px-[28px] py-[12px] rounded-[5px] top-[3750px]">
+    <Link to="/template-preview" className="absolute bg-black content-stretch flex items-start left-[262px] px-[28px] py-[12px] rounded-[5px] top-[3750px]">
       <p className="font-['Poppins:Regular',sans-serif] leading-[20px] not-italic relative shrink-0 text-[14px] text-white whitespace-pre">Download Template</p>
-    </div>
+    </Link>
   );
 }
 
@@ -1616,29 +1617,29 @@ export default function Homepage() {
         <p className="absolute font-['Poppins:Regular',sans-serif] inset-[23.06%_37.85%_34.17%_56.18%] leading-[38px] not-italic text-[#9e9e9e] text-[14px] whitespace-pre-wrap">
           Home
           <br aria-hidden="true" />
-          Section One
+          <Link to="/coming-soon" className="hover:text-white transition-colors cursor-pointer">Section One</Link>
           <br aria-hidden="true" />
-          Section Two
+          <Link to="/faq" className="hover:text-white transition-colors cursor-pointer">Section Two</Link>
           <br aria-hidden="true" />
-          Section Tree
+          <Link to="/more-sections" className="hover:text-white transition-colors cursor-pointer">Section Three</Link>
         </p>
         <p className="absolute font-['Poppins:Regular',sans-serif] inset-[23.06%_24.65%_34.17%_69.38%] leading-[38px] not-italic text-[#9e9e9e] text-[14px] whitespace-pre-wrap">
           Home
           <br aria-hidden="true" />
-          Section One
+          <Link to="/coming-soon" className="hover:text-white transition-colors cursor-pointer">Section One</Link>
           <br aria-hidden="true" />
-          Section Two
+          <Link to="/faq" className="hover:text-white transition-colors cursor-pointer">Section Two</Link>
           <br aria-hidden="true" />
-          Section Tree
+          <Link to="/more-sections" className="hover:text-white transition-colors cursor-pointer">Section Three</Link>
         </p>
         <p className="absolute font-['Poppins:Regular',sans-serif] inset-[23.06%_11.46%_34.17%_82.57%] leading-[38px] not-italic text-[#9e9e9e] text-[14px] whitespace-pre-wrap">
           Home
           <br aria-hidden="true" />
-          Section One
+          <Link to="/coming-soon" className="hover:text-white transition-colors cursor-pointer">Section One</Link>
           <br aria-hidden="true" />
-          Section Two
+          <Link to="/faq" className="hover:text-white transition-colors cursor-pointer">Section Two</Link>
           <br aria-hidden="true" />
-          Section Tree
+          <Link to="/more-sections" className="hover:text-white transition-colors cursor-pointer">Section Three</Link>
         </p>
         <p className="absolute font-['Poppins:SemiBold',sans-serif] inset-[13.89%_38.96%_77.22%_56.18%] leading-[32px] not-italic text-[16px] text-center text-white whitespace-pre">Sections</p>
         <Group39 />

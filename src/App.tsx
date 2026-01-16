@@ -7,6 +7,10 @@ import DashboardLayout from './components/layout-dashboard/DashboardLayout';
 import DashboardHelper from './pages/Dashboard';
 import Users from './pages/Users';
 import Settings from './pages/Settings';
+import TemplatePreview from './pages/TemplatePreview';
+import ComingSoon from './pages/ComingSoon';
+import FAQ from './pages/FAQ';
+import MoreSections from './pages/MoreSections';
 
 export default function App() {
   return (
@@ -33,6 +37,14 @@ export default function App() {
           {/* Auth Routes */}
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+
+          {/* Template Preview with Pricing */}
+          <Route path="/template-preview" element={<TemplatePreview />} />
+
+          {/* Interactive Section Pages */}
+          <Route path="/coming-soon" element={<ComingSoon />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/more-sections" element={<MoreSections />} />
 
           {/* Protected Dashboard Routes */}
           <Route path="/dashboard" element={<DashboardLayout />}>
