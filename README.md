@@ -60,7 +60,7 @@ A modern, responsive dashboard implementation featuring React Router, localized 
    - Client-side pagination/sorting was chosen because the mock API returns all 10 users at once.
 
 <<<<<<< HEAD
-## 🎥 Demo
+##  Demo
 
 *(Placeholder: Link to 10-minute screen recording)*
 =======
@@ -70,4 +70,5 @@ submission for banao technologies . I created a clone of the figma design provid
 =======
 ##  Demo
 https://drive.google.com/file/d/1wc5J4JezURrPWsARYSpgxZvZK25VrWbQ/view?usp=sharing
+https://drive.google.com/file/d/1hXp8FZ6Y2cvDQnZDdJB3x9J6rxGgQl5B/view?usp=sharing
 >>>>>>> 52f25b25646bcfa2f6535afa456f386dc8c39ee0
